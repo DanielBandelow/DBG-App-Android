@@ -1,18 +1,10 @@
 package de.dbg_ratingen.dbgapp;
 
-import android.annotation.SuppressLint;
-
-import androidx.appcompat.app.ActionBar;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.WindowInsets;
-import android.view.animation.AlphaAnimation;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import de.dbg_ratingen.dbgapp.databinding.ActivitySplashBinding;
 
@@ -22,7 +14,7 @@ public class SplashActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        setTheme(R.style.Theme_DBGApp_Fullscreen);
+        setTheme(R.style.Theme_DBGApp);
         super.onCreate(savedInstanceState);
 
         binding = ActivitySplashBinding.inflate(getLayoutInflater());

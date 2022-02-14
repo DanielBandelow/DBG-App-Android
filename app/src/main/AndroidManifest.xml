@@ -13,7 +13,7 @@
             android:name=".SplashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
-            android:theme="@style/Theme.DBGApp.Fullscreen">
+            android:theme="@style/Theme.DBGApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,8 +23,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.DBGApp.Fullscreen">
-        </activity>
+            android:theme="@style/Theme.DBGApp"/>
     </application>
 
 </manifest>

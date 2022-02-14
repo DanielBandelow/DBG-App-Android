@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_navigation"
+    app:startDestination="@id/overviewFragment">
+
+    <fragment
+        android:id="@+id/accountFragment"
+        android:label="fragment_account"
+        android:name="de.dbg_ratingen.dbgapp.ui.AccountFragment"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/personalFragment"
+        android:label="fragment_personal"
+        android:name="de.dbg_ratingen.dbgapp.ui.PersonalFragment"
+        tools:layout="@layout/fragment_personal" />
+    <fragment
+        android:id="@+id/overviewFragment"
+        android:label="fragment_overview"
+        android:name="de.dbg_ratingen.dbgapp.ui.OverviewFragment"
+        tools:layout="@layout/fragment_overview" />
+</navigation>

@@ -4,20 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:theme="@style/Theme.DBGApp"
     tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="77dp"
-        android:theme="@style/Theme.DBGApp">
+        android:layout_height="77dp">
 
         <ImageView
             android:id="@+id/ic_corner"
             android:layout_width="173dp"
             android:layout_height="wrap_content"
-            android:foregroundGravity="left"
-            app:srcCompat="@drawable/ic_dbg_text" />
+            android:foregroundGravity="center|center_horizontal"
+            app:srcCompat="@drawable/dbg_logo_white" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
