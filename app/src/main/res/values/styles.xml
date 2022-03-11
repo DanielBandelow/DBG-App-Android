@@ -15,4 +15,31 @@
         <item name="android:background">@color/black</item>
         <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
     </style>
+
+    <style name="PlanMessage" parent="">
+        <item name="android:background">@drawable/message_background</item>
+        <item name="android:layout_height">100dp</item>
+    </style>
+
+    <style name="PlanMessage.Hour">
+        <item name="android:background" />
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="PlanMessage.Class">
+        <item name="android:background" />
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="PlanMessage.Info">
+        <item name="android:background" />
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
 </resources>

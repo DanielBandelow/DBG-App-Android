@@ -17,4 +17,6 @@
     <string name="menu_vertretungsplan">Vertretungsplan</string>
     <string name="menu_">Vertretungsplan</string>
     <string name="logo">Logo</string>
+
+    <string name="dbg_background_describtion">Bild vom DBG-Ratingen</string>
 </resources>

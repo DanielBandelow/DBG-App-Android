@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 
 import androidx.fragment.app.Fragment;
 
@@ -60,6 +61,21 @@ public class OverviewFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_overview, container, false);
+        View view = inflater.inflate(R.layout.fragment_overview, container, false);
+        LinearLayout list = view.findViewById(R.id.message_list);
+        if (list != null) {
+            list.addView(new PlanMessage(list.getContext(), "1/2", "M LK BRI", "Schüler haben Aufgaben"));
+            list.addView(new PlanMessage(list.getContext(), "1/2", "D LK SGL", "Aufgaben über Teams"));
+            list.addView(new PlanMessage(list.getContext(), "3/4", "EK EDN", "EvA"));
+            list.addView(new PlanMessage(list.getContext(), "3/4", "PA NEM", "frei"));
+            list.addView(new PlanMessage(list.getContext(), "3/4", "GE FRW", "Bitte auf die Klausur vorbereiten"));
+            list.addView(new PlanMessage(list.getContext(), "3/4", "D KRF", "S.1, A2,4,8; S.16, 32, 64 lesen und Aufgaben auf S. 128 bearbeiten"));
+            list.addView(new PlanMessage(list.getContext(), "5/6", "KR NIH", "Unterricht entfällt"));
+            list.addView(new PlanMessage(list.getContext(), "5/6", "ER LOE", "informiert euch über die Lutherschen Thesen"));
+            list.addView(new PlanMessage(list.getContext(), "5/6", "PH SGL", "Was ist die Essenz des Lebens? Aufsatz bis 17:00 abgeben"));
+            list.addView(new PlanMessage(list.getContext(), "8/9", "SP ESH", "Springseilsprünge 1-100 lernen, Überprüfung nächste Stunde"));
+
+        }
+        return view;
     }
 }

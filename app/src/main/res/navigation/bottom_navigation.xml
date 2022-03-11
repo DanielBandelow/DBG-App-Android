@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/accountFragment"
-        android:label="fragment_account"
         android:name="de.dbg_ratingen.dbgapp.ui.AccountFragment"
+        android:label="fragment_account"
         tools:layout="@layout/fragment_account" />
     <fragment
         android:id="@+id/personalFragment"
-        android:label="fragment_personal"
         android:name="de.dbg_ratingen.dbgapp.ui.PersonalFragment"
+        android:label="fragment_personal"
         tools:layout="@layout/fragment_personal" />
     <fragment
         android:id="@+id/overviewFragment"
-        android:label="fragment_overview"
         android:name="de.dbg_ratingen.dbgapp.ui.OverviewFragment"
+        android:label="fragment_overview"
         tools:layout="@layout/fragment_overview" />
 </navigation>
