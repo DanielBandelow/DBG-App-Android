@@ -10,13 +10,12 @@
     <string name="overview">Übersicht</string>
     <string name="account">Account</string>
     <string name="personal">Eigene Nachrichten</string>
-    <string name="title_activity_splash">DBG App S</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_splash">DBG App</string>
 
     <string name="menu_vertretungsplan">Vertretungsplan</string>
     <string name="menu_">Vertretungsplan</string>
     <string name="logo">Logo</string>
 
     <string name="dbg_background_describtion">Bild vom DBG-Ratingen</string>
+    <string name="dbg_logo_description">DBG-Logo</string>
 </resources>

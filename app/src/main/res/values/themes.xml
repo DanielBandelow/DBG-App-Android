@@ -1,41 +1,23 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.DBGApp" parent="Theme.MaterialComponents.Light">
-        <!-- Icon Colors -->
-        <!-- Primary brand color. -->
+    <style name="Theme.DBGApp" parent="Theme.MaterialComponents.Bridge">
         <item name="colorPrimary">@color/dbg_red</item>
         <item name="colorPrimaryVariant">@color/dbg_red_variant</item>
         <item name="colorPrimaryDark">@color/dbg_red</item>
-        <item name="colorOnPrimary">#008</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+        <item name="colorOnPrimary">@color/text</item>
+
+        <item name="colorSecondary">#AAAAAA</item>
+        <item name="colorSecondaryVariant">#CCCCCC</item>
+        <item name="colorOnSecondary">@color/dbg_red</item>
+
+        <item name="colorError">#FF0000</item>
+        <item name="colorOnError">#000000</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">@color/dbg_red_variant</item>
+
         <item name="windowNoTitle">true</item>
         <item name="windowActionBar">false</item>
-    </style>
 
-    <style name="Theme.DBGApp.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-    </style>
-
-    <style name="Theme.DBGApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.ActionBar">
-        <item name="colorPrimary">@color/dbg_red</item>
-        <item name="colorPrimaryVariant">@color/dbg_red_variant</item>
-        <item name="colorPrimaryDark">@color/dbg_red</item>
-        <item name="colorOnPrimary">#008</item>
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-    </style>
-
-    <style name="Theme.DBGApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-
-    <style name="Theme.DBGApp.Fullscreen" parent="Theme.DBGApp">
-        <item name="fullscreenBackgroundColor">@color/white</item>
-        <item name="android:statusBarColor" tools:targetApi="l">@color/dbg_red</item>
-        <item name="android:actionBarStyle">@style/Widget.Theme.DBGApp.ActionBar.Fullscreen</item>
-        <item name="android:windowActionBarOverlay">true</item>
-        <item name="android:windowBackground">@color/background_light</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
+        <item name="fontFamily">@font/segoe_ui</item>
     </style>
 </resources>

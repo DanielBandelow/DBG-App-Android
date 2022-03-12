@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@color/background"
     tools:context=".ui.OverviewFragment">
 
     <ImageView
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="top"
         android:adjustViewBounds="true"
-        android:scaleType="fitStart"
+        android:scaleType="centerCrop"
         android:src="@drawable/dbg_background"
         app:layout_constraintTop_toTopOf="parent"
         android:contentDescription="@string/dbg_background_describtion"/>
@@ -21,7 +21,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/black_gradient"
+        android:background="@drawable/background_gradient"
         app:layout_constraintBottom_toBottomOf="@id/top_image"
         app:layout_constraintHeight="match_constraint"
         app:layout_constraintTop_toTopOf="@id/top_image" />
@@ -50,7 +50,8 @@
                 android:layout_margin="10dp"
                 android:text="@string/overview"
                 android:textColor="@color/dbg_red"
-                android:textSize="20sp" />
+                android:textSize="25sp"
+                android:fontFamily="@font/segoe_ui_bold"/>
         </LinearLayout>
 
     </ScrollView>

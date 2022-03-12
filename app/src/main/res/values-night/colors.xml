@@ -2,7 +2,7 @@
 <resources>
     <color name="dbg_red">#DA363C</color>
     <color name="dbg_red_variant">#AA363C</color>
-    <color name="text">#000000</color>
-    <color name="text_light">#555555</color>
-    <color name="background">#EEEEEE</color>
+    <color name="text">#FFFFFF</color>
+    <color name="text_light">#BBBBBB</color>
+    <color name="background">#444444</color>
 </resources>

@@ -7,7 +7,7 @@
         android:right="0dp"
         android:top="0dp" />
     <gradient
-        android:centerColor="#BA686A"
+        android:centerColor="@color/dbg_red"
         android:centerX="1"
-        android:startColor="#DDDDDD" />
+        android:startColor="@color/background"/>
 </shape>
